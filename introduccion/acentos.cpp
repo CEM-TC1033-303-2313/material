@@ -22,4 +22,7 @@ int main() {
     // Signos de puntuación
     std::cout << "? -> \xA8" << std::endl;
     std::cout << "! -> \xAD" << std::endl;
+
+    std::cout << "\xB5""rbol" << std::endl;
+
 }
