@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-    for (int i=0; i<=10; i++)
+    for (int i=0; i<=10; i--)
         std::cout << "i: " << i << std::endl;
     int arreglo[5] = {64,22, 12, 45, 193};
     for (int i=0; i<sizeof(arreglo)/sizeof(int); i++) {
